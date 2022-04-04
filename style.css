@@ -1,0 +1,19 @@
+body {
+	font-family: "unscii";
+	background-color: #fff385;
+}
+
+header {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "unscii";
+    src: url("fonts/unscii.woff") format('woff');
+}
