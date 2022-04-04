@@ -7,6 +7,14 @@ header {
 	text-align: center;
 }
 
+main {
+	padding: 20px;
+}
+
+main p {
+	text-align: center;
+}
+
 .title {
 	text-align: center;
 }
