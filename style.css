@@ -3,16 +3,26 @@ body {
 	background-color: #fff385;
 }
 
+/* header things */
+
 header {
 	text-align: center;
 }
 
-main {
-	padding: 20px;
+.toplogo {
+	margin: 30px 0px 0px 0px
 }
+
+.title {
+	margin: 10px 0px 5px 0px;
+}
+
+/* body things */
 
 main p {
 	text-align: center;
+	margin: 10px 0px;
+	padding: 0px 40px;
 }
 
 .title {
