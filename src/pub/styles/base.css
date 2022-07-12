@@ -8,7 +8,7 @@ header {
 	user-select: none;
 }
 
-.jamlogo {
+.mark {
 	width: 100%;
 	max-width: 600px;
 }
@@ -33,7 +33,7 @@ main h2 {
 }
 
 main a {
-	color: #fcef8d
+	color: #fff;
 }
 
 main a:hover {
@@ -54,9 +54,11 @@ details {
 
 details > summary {
 	user-select: none;
-	color: #fcef8d;
+	color: #fff;
 	list-style-position: inside;
+	cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer;
 }
+
 
 /* ohhi things */
 .ohhi {
@@ -106,8 +108,8 @@ canvas {
 }
 
 .game {
-	width: 320px;
-    height: 230px;
+	width: 270px;
+    height: 250px;
     margin: 0px 0px 10px 0px;
 }
 
@@ -120,7 +122,6 @@ canvas {
 
 .game .info p {
 	display: inline;
-
 }
 
 .game .title {
@@ -129,5 +130,5 @@ canvas {
 
 .game .author {
 	text-align: right;
-	color: #ffffff
+	color: #aee2ff;
 }

@@ -30,4 +30,11 @@ export const games = [
 		banner: "https://img.itch.zone/aW1nLzg3NDA1OTIucG5n/315x250%23c/nqvVI7.png",
 		title: "Marktonator",
 	},
+	{
+		url: "https://l8doku.itch.io/mark-loops",
+		author: "Doku",
+		winner: "1",
+		banner: "https://img.itch.zone/aW1nLzg3MzYzMTAucG5n/315x250%23c/bQob9%2B.png",
+		title: "Mark Loops",
+	}
 ]
