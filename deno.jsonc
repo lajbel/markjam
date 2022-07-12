@@ -1,0 +1,17 @@
+{
+	"lint": {
+	  "rules": {
+		"tags": ["recommended"],
+		"include": ["ban-untagged-todo"],
+		"exclude": ["no-unused-vars"]
+	  }
+	},
+	"fmt": {
+	  "options": {
+		"lineWidth": 80,
+		"indentWidth": 4,
+		"singleQuote": false,
+		"proseWrap": "preserve"
+	  }
+	}
+  }

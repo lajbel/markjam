@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+/* header things */
+header {
+	text-align: center;
+	user-select: none;
+}
+
+.jamlogo {
+	width: 100%;
+	max-width: 600px;
+}
+
+.title {
+	margin: 10px 0px 5px 0px;
+}
+
+/* body things */
+main {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+main p {
+	text-align: center;
+}
+
+main h2 {
+	color: #ffc3f2;
+}
+
+main a {
+	color: #fcef8d
+}
+
+main a:hover {
+	color: #fcef8d
+}
+
+main li {
+	list-style-position: inside;
+}
+
+.title {
+	text-align: center;
+}
+
+details {
+    margin: 10px;
+}
+
+details > summary {
+	user-select: none;
+	color: #fcef8d;
+	list-style-position: inside;
+}
+
+/* ohhi things */
+.ohhi {
+	margin: 20px 0px 0px 0px;
+}
+
+.ohhi .nes-balloon {
+	max-width: 900px;
+}
+
+/*btn*/
+.mark-list {
+	text-align: left;
+	margin-left: auto; 
+	margin-right: auto; 
+	max-width: 340px;
+}
+
+/* footer things */
+footer {
+	background-image: url("../img/markstars.png");
+	background-repeat: both;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+/* fonts */
+@font-face {
+    font-family: "unscii";
+    src: url("../fonts/unscii.woff") format('woff');
+}
+
+/* canvas */
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+/* games showcase */
+.showcase {
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.game {
+	width: 320px;
+    height: 230px;
+    margin: 0px 0px 10px 0px;
+}
+
+.game .banner {
+	height: 200px;
+    object-fit: contain;
+	outline: 4px solid black;
+	margin-bottom: 2px;
+}
+
+.game .info p {
+	display: inline;
+
+}
+
+.game .title {
+	text-align: left;
+}
+
+.game .author {
+	text-align: right;
+	color: #ffffff
+}
